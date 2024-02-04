@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LightsOut.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Column 0 -->
+        <Button x:Name="b00"
+                Grid.Column="0"
+                Grid.Row="0"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b01"
+                Grid.Column="0"
+                Grid.Row="1"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b02"
+                Grid.Column="0"
+                Grid.Row="2"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b03"
+                Grid.Column="0"
+                Grid.Row="3"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b04"
+                Grid.Column="0"
+                Grid.Row="4"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+
+        <!-- Column 1 -->
+        <Button x:Name="b10"
+                Grid.Column="1"
+                Grid.Row="0"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b11"
+                Grid.Column="1"
+                Grid.Row="1"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b12"
+                Grid.Column="1"
+                Grid.Row="2"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b13"
+                Grid.Column="1"
+                Grid.Row="3"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b14"
+                Grid.Column="1"
+                Grid.Row="4"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+
+        <!-- Column 2 -->
+        <Button x:Name="b20"
+                Grid.Column="2"
+                Grid.Row="0"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b21"
+                Grid.Column="2"
+                Grid.Row="1"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b22"
+                Grid.Column="2"
+                Grid.Row="2"
+                BackgroundColor="Gray" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b23"
+                Grid.Column="2"
+                Grid.Row="3"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b24"
+                Grid.Column="2"
+                Grid.Row="4"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+
+        <!-- Column 3 -->
+        <Button x:Name="b30"
+                Grid.Column="3"
+                Grid.Row="0"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b31"
+                Grid.Column="3"
+                Grid.Row="1"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b32"
+                Grid.Column="3"
+                Grid.Row="2"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b33"
+                Grid.Column="3"
+                Grid.Row="3"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b34"
+                Grid.Column="3"
+                Grid.Row="4"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+
+        <!-- Column 4 -->
+        <Button x:Name="b40"
+                Grid.Column="4"
+                Grid.Row="0"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b41"
+                Grid.Column="4"
+                Grid.Row="1"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b42"
+                Grid.Column="4"
+                Grid.Row="2"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b43"
+                Grid.Column="4"
+                Grid.Row="3"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+        <Button x:Name="b44"
+                Grid.Column="4"
+                Grid.Row="4"
+                BackgroundColor="AntiqueWhite" 
+                Margin="1" 
+                Clicked="OnClick" />
+
+    </Grid>
+
+</ContentPage>
